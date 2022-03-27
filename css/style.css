@@ -10,6 +10,7 @@ p {
 
 img {
 	display: block;
+	max-width: 100%;
 }
 
 .subtitle {
@@ -191,6 +192,10 @@ img {
 .product-list li {
 	background-color: #fec63e;
 	text-align: center;
+}
+
+.product-list li img {
+	margin: 0 auto;
 }
 
 .product-icon {
